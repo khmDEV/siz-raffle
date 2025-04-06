@@ -122,7 +122,6 @@ export const RaffleEditor: React.FC<RaffleEditorProps> = (props) => {
     return (
         <div className="raffle-editor-container">
             <div className="raffle-editor-numbers">
-                <br /><br />
                 <h2>Números</h2>
                 <textarea
                     onChange={(e) => { setNumbersString(e.target.value) }}
