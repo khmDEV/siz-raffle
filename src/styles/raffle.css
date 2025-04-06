@@ -1,0 +1,50 @@
+.raffle-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    min-width: 1200px;
+}
+
+.raffle-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.raffle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.raffle-button:hover {
+    background-color: #0056b3;
+}
+
+.raffle-result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+}
+
+.raffle-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.raffle-prizes {
+    list-style-type: none;
+    padding: 0;
+}
+.raffle-prizes li {
+    margin: 5px 0;
+    font-size: 16px;
+}
