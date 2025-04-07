@@ -7,11 +7,12 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.raffle-editor-items {
+    width: 100%;
+}
 .raffle-editor-numbers,
 .raffle-editor-item {
     width: 100%;
-    max-width: 600px;
     margin-bottom: 20px;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .raffle-editor-textarea {
-    width: 90%;
+    width: 95%;
     height: 100px;
     padding: 10px;
     font-size: 16px;
