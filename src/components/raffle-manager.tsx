@@ -39,6 +39,7 @@ const RaffleWindow: React.FC<RaffleManagerProps> = (props) => {
 
     return (
         <div className="raffle-window-container">
+            {raffleViews[currentIndex]}
             <button
                 className="raffle-button left"
                 onClick={() => setCurrentIndex(currentIndex - 1)}
@@ -46,7 +47,6 @@ const RaffleWindow: React.FC<RaffleManagerProps> = (props) => {
             >
                 Anterior
             </button>
-            {raffleViews[currentIndex]}
             <button
                 className="raffle-button right"
                 onClick={() => setCurrentIndex(currentIndex + 1)}

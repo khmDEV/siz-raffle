@@ -15,3 +15,27 @@
     font-weight: bold;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .random-number-container {
+        padding: 15px;
+        max-width: 150px;
+        min-height: 120px;
+    }
+
+    .random-number {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .random-number-container {
+        padding: 10px;
+        max-width: 120px;
+        min-height: 100px;
+    }
+
+    .random-number {
+        font-size: 30px;
+    }
+}

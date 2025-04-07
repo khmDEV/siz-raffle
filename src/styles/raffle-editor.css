@@ -6,7 +6,6 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    min-width: 1200px;
 }
 
 .raffle-editor-numbers,
@@ -14,7 +13,6 @@
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
-    min-width: 1100px;
 }
 
 .raffle-editor-numbers h2,
@@ -25,14 +23,13 @@
 }
 
 .raffle-editor-textarea {
-    width: 100%;
+    width: 90%;
     height: 100px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: vertical;
-    min-height: 400px;
 }
 
 .raffle-editor-button {
@@ -48,4 +45,40 @@
 
 .raffle-editor-button:hover {
     background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .raffle-editor-container {
+        padding: 15px;
+    }
+
+    .raffle-editor-textarea {
+        height: 80px;
+    }
+
+    .raffle-editor-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .raffle-editor-container {
+        padding: 10px;
+    }
+
+    .raffle-editor-textarea {
+        height: 60px;
+    }
+
+    .raffle-editor-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    .raffle-editor-container {
+        min-width: 650px;
+    }
 }

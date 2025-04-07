@@ -23,3 +23,24 @@
   width: 150px;
   margin-bottom: 0; /* Elimina el margen inferior */
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding-top: 100px; /* Reduce el espacio para el logo en pantallas más pequeñas */
+  }
+
+  .logo {
+    width: 120px; /* Reduce el tamaño del logo en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding-top: 80px; /* Reduce aún más el espacio para el logo en pantallas muy pequeñas */
+  }
+
+  .logo {
+    width: 100px; /* Reduce aún más el tamaño del logo en pantallas muy pequeñas */
+  }
+}
+
